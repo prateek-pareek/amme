@@ -3,7 +3,7 @@ name: homepage CICD
 on:
   push:
     branches: 
-        - main
+      - main
 
 jobs:
   deploy:
