@@ -22,7 +22,7 @@ jobs:
 
       - name: deploy ec2
         run: |
-         ssh -o StrictHostKeyChecking=no ubuntu@13.50.108.97 << 'EOF'
+         ssh -o StrictHostKeyChecking=no ubuntu@ip << 'EOF'
            cd ~/amme
            git pull origin main
            npm install
